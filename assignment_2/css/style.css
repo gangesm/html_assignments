@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+    width: 960px;
+    font-family: 'Metrophobic', Arial, serif;
+    font-weight: 400;
+  }
+
+* {
+  margin:auto;
+  padding;0px;
+}
+.container {
+    margin:0px 11px;
+}
+
+a {
+    text-decoration:none;
+    color:blue ;
+  }
+.header {
+    margin-top: 16px;
+    height: 51px;
+    margin-bottom: 34px;
+  }
+
+.clearfix {
+    clear:both;
+    margin:0px;
+  }
+
+.logo {
+    color:#0096d2;
+    font-size:25px;
+    border-style: solid;
+    border-width: medium;
+    border-color:#444444;
+    padding:10px 20px;
+    text-transform:uppercase;
+    width: 100px;
+    float: left;
+    margin-bottom: 15px;
+  }
+  .menu {
+    float: left;
+    margin-top: 20px;
+  }
+
+.menu ul {
+    margin: auto 5px;
+  }
+.menu > ul > li {
+    float:left;
+    margin-left:80px;
+    list-style-type:none;
+  }
+
+.serviceBox {
+  width: 288px;
+  height: 278px;
+  float: left;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#444444;
+  margin-bottom: 15px;
+}
+.serviceBox2 {
+  width: 288px;
+  height: 278px;
+  float: left;
+  margin-left: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#444444;
+  margin-bottom: 15px;
+}
