@@ -57,7 +57,6 @@ a {
 
 .serviceBox {
   width: 288px;
-  height: 278px;
   float: left;
   border-style: solid;
   border-width: 1px;
@@ -66,11 +65,53 @@ a {
 }
 .serviceBox2 {
   width: 288px;
-  height: 278px;
   float: left;
   margin-left: 15px;
   border-style: solid;
   border-width: 1px;
   border-color:#444444;
   margin-bottom: 15px;
+}
+.innerService {
+  padding: 15px 15px
+}
+.innerService h3 {
+  font-size: 21px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.innerService p {
+  font-size: 13px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.aboutUs {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px 15px 15px;
+}
+
+.aboutUs h3 {
+  font-size: 23px;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+.aboutUs p {
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.owner {
+  width: 240px;
+  height: 231px;
+  float: left;
+}
+.descripton {
+  width: 240px;
+  height: 231px;
+  float: right;
+  background-color: #eeeeee;
 }
