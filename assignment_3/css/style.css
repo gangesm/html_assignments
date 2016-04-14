@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Metrophobic', Arial, serif;
+  font-weight: 400;
+}
+* {
+  margin: 0 auto;
+  padding:0px;
+}
+a {
+  text-decoration: none;
+}
+
+.mainContainer {
+  width: 1400px;
+  margin: 0 auto;
+  padding:0px;
+}
+.container {
+  width: 1201px;
+  margin: 0 auto;
+  padding:0px;
+}
+
+/** Header style sheet **/
+.header {
+  height: 80px;
+  background: #0d0b11;
+}
+
+.logo {
+  text-align: center;
+  color: #fffff;
+  float: left;
+  margin: 25px auto;
+}
+
+.menu {
+  margin-top: 35px;
+  float: right;
+}
+.menu ul li {
+  margin-right: 52px;
+  float: left;
+  color: #ffffff;
+  list-style-type: none;
+}
+.menu ul li a {
+  color: #ffffff;
+}
+
