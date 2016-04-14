@@ -11,6 +11,19 @@ body {
 a {
   text-decoration: none;
 }
+.btn {
+  background: #ea5b58;
+  width: 145px;
+  height: 53px;
+  font-size: 18px;
+  line-height: 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+.clearfix {
+  margin: auto;
+  clear: both;
+}
 
 .mainContainer {
   width: 1400px;
@@ -48,5 +61,62 @@ a {
 }
 .menu ul li a {
   color: #ffffff;
+}
+.slider {
+  width: 100%;
+  background-color: #161828;
+  position: absolute;
+  height: 470px;
+}
+
+.slider h1 {
+  position: relative;;
+  color: #ffffff;
+  top: 118px;
+  left: 0px;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.slider p {
+  position: relative;;
+  color: #ffffff;
+  line-height: 24px;
+  font-size: 24px;
+  top: 150px;
+  left: 0px;
+}
+
+
+.slider img {
+  position: relative;
+  color: #ffffff;
+  top: 27px;
+  left: 60%;
+}
+
+.imgBg {
+  right: 0;
+  background: url("img/sliderImage.png");
+  position: absolute;
+  width: 100%;
+}
+
+.imgBox {
+  color: #ffffff;
+  right: 0;
+  left: 15px;
+  top: 27px;
+  background: url("img/box.png");
+  position: relative;
+}
+
+.sliderBtn {
+  position: relative;
+  background: #ea5b58;
+  color: #ffffff;
+  right: 44%;
+  bottom: 137px;
 }
 
