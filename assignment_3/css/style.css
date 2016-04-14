@@ -20,6 +20,19 @@ a {
   border-radius: 5px;
   text-align: center;
 }
+
+.serviceBtn {
+  background: #ea5b58;
+  width: 88px;
+  height: 33px;
+  font-size: 11px;
+  border-radius: 1px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 30px;
+  margin-top: 31px;
+}
+
 .clearfix {
   margin: auto;
   clear: both;
@@ -38,8 +51,10 @@ a {
 
 /** Header style sheet **/
 .header {
+  width: 100%;
   height: 80px;
   background: #0d0b11;
+  position: fixed;
 }
 
 .logo {
@@ -61,11 +76,11 @@ a {
 }
 .menu ul li a {
   color: #ffffff;
+  font-size: 14px;
 }
 .slider {
   width: 100%;
   background-color: #161828;
-  position: absolute;
   height: 470px;
 }
 
@@ -73,7 +88,7 @@ a {
   position: relative;;
   color: #ffffff;
   top: 118px;
-  left: 0px;
+  right: 0px;
   font-size: 36px;
   line-height: 36px;
   font-weight: 600;
@@ -91,8 +106,7 @@ a {
 
 .slider img {
   position: relative;
-  color: #ffffff;
-  top: 27px;
+  color: #ffffff;;
   left: 60%;
 }
 
@@ -120,3 +134,63 @@ a {
   bottom: 137px;
 }
 
+/*** Service style ***/
+
+.service {
+  background: #475a85;
+  height: 555px;
+  padding: 73px 0px;
+}
+
+.service h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 18px;
+  font-weight: 600;
+}
+.service h4 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 21px 0px;
+  font-weight: 400;
+}
+.service .separator {
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.services {
+  width: 300px;
+  float: left;
+  padding: 20px 0px;
+  margin-top: 85px;
+}
+.servicesCentered {
+  padding: 0px 30px;
+}
+.servicesCentered h4 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.servicesCentered p {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;;
+  color: #ffffff;
+}
+.servicesCentered img {
+  padding-left: 95px;
+}
+
+/*** Our greate work ***/
+
+.greateWork {
+  background: #475a85;
+  height: 555px;
+  padding: 73px 0px;
+}
