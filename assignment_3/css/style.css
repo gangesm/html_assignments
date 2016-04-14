@@ -191,8 +191,7 @@ a {
 
 .greateWork {
   background: url(portfolioBg.png);
-  height: 425px;
-  padding-top: 197px;
+  padding: 213px 0px;
 }
 .greateWork h2 {
   text-align: center;
@@ -208,4 +207,83 @@ a {
   line-height: 18px;
   padding: 24px 0px;
   font-weight: 400;
+}
+
+/***  Portfolio ***/
+
+.portfolio {
+  padding-top: 90px;
+}
+.portfolio h2 {
+  text-align: center;
+  color: #323232;
+  font-size: 48px;
+  line-height: 18px;
+  font-weight: 600;
+}
+.portfolio h4 {
+  text-align: center;
+  color: #323232;
+  font-size: 24px;
+  line-height: 18px;
+  padding: 24px 0px;
+  font-weight: 400;
+}
+.portfolio .separatorPro {
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.portfolio .filter {
+  padding: 50px 0px;
+  margin-left: 43%;
+}
+
+.portfolio .filter ul li {
+  list-style-type: none;
+  float: left;
+  margin-left: 10px;
+}
+
+.portfolio .project {
+  width: 370px;
+  height: 290px;
+  float: left;
+  background: #7b7b7b;
+  margin: 15px 15px;
+}
+.portfolio .project h2 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-top: 50px;
+  color: #ffffff;
+}
+.portfolio .project p {
+  padding: 15px 0px;
+  color: #ffffff;
+  line-height: 18px;
+  font-size: 14px;
+  text-align: center;
+  width: 300px;
+}
+
+.portfolio .project:hover {
+  background: #506083;
+}
+.portfolio .project:hover h2 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-top: 50px;
+  color: #ffffff;
+}
+.portfolio .project:hover p {
+  padding: 15px 0px;
+  color: #ffffff;
+  line-height: 18px;
+  font-size: 14px;
+  text-align: center;
+  width: 300px;
 }
