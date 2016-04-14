@@ -1,17 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 
 body {
-    width: 960px;
     font-family: 'Metrophobic', Arial, serif;
-    font-weight: 400;
   }
 
 * {
   margin:auto;
-  padding;0px;
+  padding:0px;
 }
 .container {
-    margin:0px 11px;
+    width: 960px;
+    padding: 0px 11px;
+    margin: 0px auto;
 }
 
 a {
