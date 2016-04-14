@@ -190,7 +190,22 @@ a {
 /*** Our greate work ***/
 
 .greateWork {
-  background: #475a85;
-  height: 555px;
-  padding: 73px 0px;
+  background: url(portfolioBg.png);
+  height: 425px;
+  padding-top: 197px;
+}
+.greateWork h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 18px;
+  font-weight: 600;
+}
+.greateWork h4 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 18px;
+  padding: 24px 0px;
+  font-weight: 400;
 }
