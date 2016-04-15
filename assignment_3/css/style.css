@@ -334,7 +334,8 @@ a:hover {
 /***  Happy Customer ***/
 
 .customer {
-  padding: 73px 0px;
+  padding-top: 73px;
+  height: 690px;
 }
 
 .customer h2 {
@@ -408,4 +409,33 @@ a:hover {
 }
 .customer .says .bullet:hover {
   background: #323232;
+}
+
+/*** Our get in touch ***/
+
+.getIntouch {
+  background: url(../img/portfolioBg.png);
+  padding: 212px 0px;
+}
+.getIntouch h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 600;
+}
+.getIntouch h4 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 25px;
+  padding: 24px 0px;
+  font-weight: 400;
+}
+
+/*** Our get in touch ***/
+
+.map {
+  background: url(../img/map.jpg);
+  height: 512px;
 }
