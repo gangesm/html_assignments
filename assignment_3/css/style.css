@@ -23,8 +23,7 @@ a:hover {
 }
 .btn:hover {
   background: #475a85;
-  border-radius: 5px;
-  text-align: center;
+  border-radius: 0px;
   color: #ffffff;
 }
 
