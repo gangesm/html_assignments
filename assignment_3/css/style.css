@@ -11,14 +11,21 @@ body {
 a {
   text-decoration: none;
 }
+a:hover {
+  color: #475a85;
+}
 .btn {
   background: #ea5b58;
-  width: 145px;
-  height: 53px;
   font-size: 18px;
   line-height: 50px;
   border-radius: 5px;
   text-align: center;
+}
+.btn:hover {
+  background: #475a85;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .serviceBtn {
@@ -32,19 +39,19 @@ a {
   line-height: 30px;
   margin-top: 31px;
 }
+.serviceBtn:hover {
+  background: #000000;
+  color: #ffffff;
+  border-radius: 1px;
+}
 
 .clearfix {
   margin: auto;
   clear: both;
 }
 
-.mainContainer {
-  width: 1400px;
-  margin: 0 auto;
-  padding:0px;
-}
 .container {
-  width: 1201px;
+  width: 1170px;
   margin: 0 auto;
   padding:0px;
 }
@@ -55,6 +62,8 @@ a {
   height: 80px;
   background: #0d0b11;
   position: fixed;
+  top: 0;
+  z-index: 2;
 }
 
 .logo {
@@ -78,10 +87,19 @@ a {
   color: #ffffff;
   font-size: 14px;
 }
+
+.menu ul li a:hover {
+  color: #475a85;
+}
+
+/** slider style **/
+
 .slider {
   width: 100%;
   background-color: #161828;
   height: 470px;
+  margin-top: 80px;
+  z-index: 1;
 }
 
 .slider h1 {
@@ -90,7 +108,7 @@ a {
   top: 118px;
   right: 0px;
   font-size: 36px;
-  line-height: 36px;
+  line-height: 38px;
   font-weight: 600;
 }
 
@@ -98,7 +116,7 @@ a {
   position: relative;;
   color: #ffffff;
   line-height: 24px;
-  font-size: 24px;
+  font-size: 26px;
   top: 150px;
   left: 0px;
 }
@@ -112,7 +130,7 @@ a {
 
 .imgBg {
   right: 0;
-  background: url("img/sliderImage.png");
+  background: url("../img/sliderImage.png");
   position: absolute;
   width: 100%;
 }
@@ -122,16 +140,18 @@ a {
   right: 0;
   left: 15px;
   top: 27px;
-  background: url("img/box.png");
+  background: url("../img/box.png");
   position: relative;
 }
-
 .sliderBtn {
-  position: relative;
-  background: #ea5b58;
-  color: #ffffff;
-  right: 44%;
-  bottom: 137px;
+    position: relative;
+    background: #ea5b58;
+    color: #ffffff;
+    right: 44%;
+    bottom: 140px;
+    padding: 0px 0;
+    width: 145px;
+    height: 53px;
 }
 
 /*** Service style ***/
@@ -146,14 +166,14 @@ a {
   text-align: center;
   color: #ffffff;
   font-size: 30px;
-  line-height: 18px;
+  line-height: 32px;
   font-weight: 600;
 }
 .service h4 {
   text-align: center;
   color: #ffffff;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 20px;
   padding: 21px 0px;
   font-weight: 400;
 }
@@ -164,13 +184,14 @@ a {
 }
 
 .services {
-  width: 300px;
+  width: 270px;
   float: left;
   padding: 20px 0px;
   margin-top: 85px;
 }
 .servicesCentered {
   padding: 0px 30px;
+  text-align: center;
 }
 .servicesCentered h4 {
   font-size: 18px;
@@ -183,28 +204,26 @@ a {
   text-align: center;;
   color: #ffffff;
 }
-.servicesCentered img {
-  padding-left: 95px;
-}
+
 
 /*** Our greate work ***/
 
 .greateWork {
-  background: url(portfolioBg.png);
+  background: url(../img/portfolioBg.png);
   padding: 213px 0px;
 }
 .greateWork h2 {
   text-align: center;
   color: #ffffff;
   font-size: 48px;
-  line-height: 18px;
+  line-height: 50px;
   font-weight: 600;
 }
 .greateWork h4 {
   text-align: center;
   color: #ffffff;
   font-size: 24px;
-  line-height: 18px;
+  line-height: 25px;
   padding: 24px 0px;
   font-weight: 400;
 }
@@ -213,21 +232,41 @@ a {
 
 .portfolio {
   padding-top: 90px;
+  padding-bottom: 40px;
 }
 .portfolio h2 {
   text-align: center;
   color: #323232;
   font-size: 48px;
-  line-height: 18px;
+  line-height: 48px;
   font-weight: 600;
 }
 .portfolio h4 {
   text-align: center;
   color: #323232;
   font-size: 24px;
-  line-height: 18px;
+  line-height: 26px;
   padding: 24px 0px;
   font-weight: 400;
+}
+
+.portfolio .browse {
+  text-align: center;
+  color: #323232;
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 68px;
+  font-weight: 400;
+}
+
+.portfolio .browse h3 {
+  color: #323232;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.portfolio .browse img {
+  margin-top: 10px;
 }
 .portfolio .separatorPro {
   text-align: center;
@@ -247,15 +286,16 @@ a {
 }
 
 .portfolio .project {
-  width: 370px;
+  width: 350px;
   height: 290px;
   float: left;
   background: #7b7b7b;
   margin: 15px 15px;
+  text-align: center;
 }
 .portfolio .project h2 {
   font-size: 24px;
-  line-height: 24px;
+  line-height: 26px;
   font-weight: 600;
   margin-top: 50px;
   color: #ffffff;
@@ -268,13 +308,16 @@ a {
   text-align: center;
   width: 300px;
 }
+.portfolio .project img {
+  padding: 30px 0px;
+}
 
 .portfolio .project:hover {
   background: #506083;
 }
 .portfolio .project:hover h2 {
   font-size: 24px;
-  line-height: 24px;
+  line-height: 26px;
   font-weight: 600;
   margin-top: 50px;
   color: #ffffff;
@@ -286,4 +329,83 @@ a {
   font-size: 14px;
   text-align: center;
   width: 300px;
+}
+
+/***  Happy Customer ***/
+
+.customer {
+  padding: 73px 0px;
+}
+
+.customer h2 {
+  text-align: center;
+  color: #323232;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.customer h4 {
+  text-align: center;
+  color: #323232;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 21px 0px;
+  font-weight: 400;
+}
+.customer .separator {
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.customer .testmonial {
+  padding: 30px 0px;
+}
+
+
+.customer .circle {
+  float: left;
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background: #7b7b7b;
+  border: #ebebeb 5px solid;
+}
+
+.customer .says {
+  float: right;
+  padding-left: 50px;
+  width: 800px;
+  margin-top: 80px;
+}
+.customer .says p {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.customer .says h3 {
+  font-size: 24px;
+  line-height: 26px;
+  margin-top: 33px;
+}
+
+.customer .says ul {
+  margin-left: 35px;
+}
+
+.customer .says ul li {
+  list-style-type: none;
+}
+.customer .says .bullet {
+  float: left;
+  margin-left: 16px;
+  margin-top: 30px;
+  background: #7b7b7b;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  list-style-type: none;
+}
+.customer .says .bullet:hover {
+  background: #323232;
 }
