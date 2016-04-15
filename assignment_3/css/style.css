@@ -68,13 +68,12 @@ a:hover {
 
 .logo {
   text-align: center;
-  color: #fffff;
   float: left;
   margin: 25px auto;
 }
 
 .menu {
-  margin-top: 35px;
+  margin-top: 31px;
   float: right;
 }
 .menu ul li {
@@ -371,6 +370,7 @@ a:hover {
   border-radius: 50%;
   background: #7b7b7b;
   border: #ebebeb 5px solid;
+  background: url("../img/people.jpg");
 }
 
 .customer .says {
@@ -438,4 +438,147 @@ a:hover {
 .map {
   background: url(../img/map.jpg);
   height: 512px;
+}
+
+.contact {
+  background: #475a85;
+  padding-top: 90px;
+  height: 670px;
+}
+.contact h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.contact h4 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 24px 0px;
+  font-weight: 400;
+}
+.contact .separator {
+  text-align: center;
+  margin-left: 15px;
+}
+
+.contactMain {
+  padding-bottom: 30px;
+}
+
+.contactMain .contactInfo {
+  float: left;
+  margin-top: 50px;
+}
+.contactMain .contactInfo h4 {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 24px 0px;
+  font-weight: 400;
+  text-align: left;
+}
+.contactMain .contactInfo p {
+  color: #ffffff;
+  padding: 15px 0px;
+  font-size: 18px;
+  line-height: 20px;
+
+}
+
+.contactMain .contactInfo h6 {
+  padding-left: 30px;  
+  padding-top: 15px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.contactMain .contactInfo a {
+  color: #ffffff;
+}
+
+.contactMain .contactInfo a:hover {
+  color: #e0e0e0;
+}
+
+.contactMain .contactInfo .socail {
+  padding-top: 15px;
+}
+
+.contactMain .contactInfo .socail ul li {
+  float: left;
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.contactMain .contactInfo img {
+  float: left;
+  padding-top: 15px;
+}
+.contactMain .contactForm {
+  float: right;
+  margin-top: 50px;
+  margin-left: 130px;
+}
+
+input {
+  width: 275px;
+  height: 50px;
+  border-radius: 5px;
+  background: #eeeeee;
+  padding-left: 15px;
+}
+
+textarea {
+  width: 588px;
+  height: 165px;
+  padding-top: 15px;
+  margin-top: 15px;
+  background: #eeeeee;
+}
+
+.upArrow {
+  position: fixed;
+  bottom: 10px;
+  background: #c2c2c2;
+  width: 58px;
+  height: 58px;
+  border-radius: 5px;
+  right: 35px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.submitBtn {
+    background: #ea5b58;
+    color: #ffffff;
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 200px;
+    padding: 4px 0px;
+}
+
+footer {
+  background: #161828;
+  height: 176px;
+}
+
+footer .footerLogo {
+  width:178px;
+  height: 23px;
+  text-align: center;
+  margin-top: 25px;
+}
+footer h2 {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  padding-top: 58px;
+  color: #76777f;
+  font-weight: 400;
 }
