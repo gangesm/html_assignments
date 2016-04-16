@@ -81,3 +81,21 @@
   background-color: #d9534f;
   border-color: #d43f3a;
 }
+
+.work {
+  background: url(../img/portfolioBg.png);
+  padding: 172px 0px;
+}
+.work h3 {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.work p {
+  font-size: 24px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
