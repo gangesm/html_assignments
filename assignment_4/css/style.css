@@ -223,3 +223,102 @@ a {
 .client .testmonial .textRight p {
   margin-left: 15px;
 }
+
+.footer {
+  background: #00a2b1;
+  margin-top: 150px;
+  padding-top: 80px;
+  height: 190px;
+
+}
+
+.footer h2 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    float: left;
+}
+.footer .footerMain {
+}
+.footer .footerBtn {
+  float: right;
+}
+.footer .FooterSubmit {
+  padding: 6px 6px;
+  font-size: 28px;
+  line-height: 30px;
+  background: #ff8a00;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.footer .footerMenu {
+  margin-top: 40px;
+  float: left;
+}
+.footer .footerMenu ul li {
+  margin-right: 40px;
+  float: left;
+  list-style-type: none;
+}
+.footer .footerMenu ul li {
+  margin-right: 40px;
+  float: left;
+  list-style-type: none;
+}
+
+.footer .footerMenu ul li a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer .copyRight ul {
+  padding-top: 50px;
+}
+
+.footer.copyRight ul li a {
+  font-size: 14px;
+  color: #222222 !important;
+}
+
+
+.footer .footerMenu .copyRightText p {
+  font-size: 14px;
+  color: #222222;
+  float: left;
+  list-style-type: none;
+  padding-top: 35px;
+}
+
+
+.footer .footerMenu ul li a:hover {
+  color: #222222;
+}
+
+
+.footer .social {
+  float: right;
+  margin-top: 40px;
+}
+
+.footer .social ul li {
+  list-style-type: none;
+  float: left;
+  margin-left: 15px;
+}
+
+.copy {
+  float: left;
+  margin-top: 30px;
+
+}
+
+.policy {
+  margin-top: 30px;
+  float: right;
+  padding-right: 15px;
+  margin-left: 40px;
+}
