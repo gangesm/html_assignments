@@ -58,6 +58,12 @@
   color: #ffffff;
 }
 
+.service .sereptor {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 .service p {
   color: #ffffff;
 }
@@ -99,3 +105,185 @@
   color: #ffffff;
 }
 
+/** Portfolio **/
+
+.portfolio {
+  padding: 50px 0;
+}
+
+.portfolio .headline {
+  color: #323232;
+  font-size: 38px;
+  line-height: 40px;
+}
+
+.portfolio .sereptor {
+  color: #323232;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.breadcrumb {
+  padding: 50px 0;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.breadcrumb li a {
+  text-decoration: none;
+  color: #a7a7a7;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.breadcrumb li a:hover {
+  color: #323232;
+}
+
+.portfolioBox {
+  background: #7b7b7b;
+  margin: 15px 15px;
+  padding: 20px 20px;
+}
+
+.portfolioBox h3 {
+  color: #ffffff;
+  font-size:30px;
+}
+
+.portfolioBox p {
+  color: #ffffff
+}
+
+.portfolioBox:hover {
+  background: #506083;
+}
+
+.glyphicon-chevron-down {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 50px;
+}
+
+.testmonial {
+  padding: 50px 0;
+}
+
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 100px;
+    float: left;
+}
+blockquote {
+    padding: 50px 250px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+}
+
+blockquote .clientName {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.map {
+  margin: 200px 0;
+}
+
+footer {
+  background: #475a85;
+  padding: 80px 0;
+}
+.FooterHeading {
+  color: #ffffff;
+  font-size: 38px;
+  line-height: 40px;
+}
+
+.FooterPara {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+address {
+  color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  padding: 20px 0px;
+}
+
+.input-sm {
+    height: 40px;
+    padding: 10px 13px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn-group>.btn:first-child {
+    margin-top: 18px;
+    margin-left: 15px;
+    padding: 15px 45px;
+}
+
+.copyRight {
+  background: #161828;
+  padding: 50px 50px;
+  margin-bottom: 50px;
+}
+
+.copyRight  p {
+  font-size: 18px;
+  line-height: 20px;
+  color: #76777f;
+}
