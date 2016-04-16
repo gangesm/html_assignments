@@ -51,4 +51,33 @@
 
 .service {
   background: #475a85;
+  padding: 50px 0;
+}
+
+.service h2 {
+  color: #ffffff;
+}
+
+.service p {
+  color: #ffffff;
+}
+
+.separator {
+  padding-left: 38%;
+  padding-top: 20px;
+}
+
+.services {
+  padding-top: 80px;
+}
+.services h3 {
+  color: #ffffff;
+}
+
+.btn-services {
+  margin-top: 25px;
+  padding: 8px 15px;
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
 }
