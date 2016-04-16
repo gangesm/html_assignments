@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+* {
+  margin: 0 auto;
+  padding:0px;
+}
+a {
+  text-decoration: none;
+}
+a{
+  color: #475a85;
+}
+
+.clearfix {
+  margin: auto;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding:0px;
+}
+
+/** Header style sheet **/
+.header {
+  width: 100%;
+  height: 80px;
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  border-bottom: solid 1px #c6c7c7 ;
+}
+
+.logo {
+  text-align: center;
+  float: left;
+  margin: 25px auto;
+}
+
+.menu {
+  margin-top: 31px;
+  float: right;
+}
+.menu ul li {
+  margin-right: 52px;
+  float: left;
+  color: #ffffff;
+  list-style-type: none;
+}
+.menu ul li a {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.menu ul li a:hover {
+  color: #475a85;
+}
+
+/** slider style **/
+
+.slider {
+  width: 100%;
+  background-color: #161828;
+  height: 470px;
+  margin-top: 80px;
+  z-index: 1;
+}
+
+.slider h1 {
+  position: relative;;
+  color: #ffffff;
+  top: 118px;
+  right: 0px;
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 600;
+}
+
+.slider p {
+  position: relative;;
+  color: #ffffff;
+  line-height: 24px;
+  font-size: 26px;
+  top: 150px;
+  left: 0px;
+}
+
+
+.slider img {
+  position: relative;
+  color: #ffffff;;
+  left: 60%;
+}
