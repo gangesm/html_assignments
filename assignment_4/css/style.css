@@ -38,7 +38,7 @@ a {
   position: fixed;
   top: 0;
   z-index: 2;
-  border-bottom: solid 1px #c6c7c7;
+  border: solid 1px #c6c7c7;
 }
 
 .logo {
@@ -80,33 +80,43 @@ a {
 .slider {
   width: 100%;
   background-color: #161828;
-  height: 470px;
+  height: 610px;
   margin-top: 80px;
-  z-index: 1;
+  background: url(../img/slider.jpg);
 }
 
-.slider h1 {
-  position: relative;;
-  color: #ffffff;
-  top: 118px;
-  right: 0px;
-  font-size: 36px;
-  line-height: 38px;
+.slider .sliderText {
+  width: 500px;
+  position: absolute;
+}
+
+.slider .sliderText h1 {
+  position: relative;
+  color: #222222;
+  top: 108px;
+  font-size: 44px;
+  line-height: 54px;
   font-weight: 600;
 }
 
-.slider p {
-  position: relative;;
-  color: #ffffff;
+.slider .sliderText p {
+  position: relative;
+  color: #444444;
   line-height: 24px;
-  font-size: 26px;
+  font-size: 20px;
   top: 150px;
   left: 0px;
 }
 
-
-.slider img {
+.slider .sliderText .getStarted {
+  top: 220px;
   position: relative;
-  color: #ffffff;;
-  left: 60%;
+}
+.sliderText .getStarted .btnstarted {
+  padding: 15px 15px;
+  font-size: 30px;
+  line-height: 32px;
+  background: #ff8a00;
+  text-transform: uppercase;
+  font-weight: 700;
 }
