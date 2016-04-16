@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 1px solid #0d0b11;
+  z-index: 999;
+  background-color: #0d0b11;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-brand>img {
+  display: block;
+  margin-top: 6px;
+}
+
+.navbar-right {
+  margin-right: -15px;
+  margin-top: 10px;
+}
+
+.navbar-default {
+  height: 80px;
+  background-color: #0d0b11;
+  border-color: #0d0b11;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.carousel-caption {
+  right: 0;
+  padding-bottom: 13%;
+  left: 15%;
+  text-align: start;
+}
+
+.btn-danger {
+  padding: 12px 25px;
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+/** Services style ***/
+
+.service {
+  background: #475a85;
+}
