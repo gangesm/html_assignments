@@ -120,3 +120,106 @@ a {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+/** Feature style **/
+
+.feature {
+  float: left;
+  width: 700px;
+  margin-top: 84px;
+}
+.feature h2 {
+  font-size: 36px;
+  line-height: 40px;
+  color: #00bbcc;
+  border-bottom: solid 1px #eeeeee;
+  padding-bottom: 18px;
+  }
+
+.feature .mainFeature {
+  width: 220px;
+  float: left;
+  margin-top: 50px;
+}
+
+.feature .mainFeature .leftImage {
+  float: left;
+}
+
+.feature .mainFeature .info {
+  margin-left: 26px;
+  padding: 0 15px;
+}
+
+.feature .mainFeature .info p {
+  text-align:  left;
+}
+
+.feature .mainFeature  h3 {
+  font-size: 16px;
+}
+
+.client {
+  float: right;
+  width: 220px;
+  margin-top: 84px;
+}
+.client h3 {
+  font-size: 30px;
+  line-height: 42px;
+  color: #00bbcc;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.client .clientLogo {
+  border: solid 1px #dfdfdf;
+  padding: 24px;
+}
+.client .sencondLogo {
+  border: solid 1px #dfdfdf;
+  padding: 2px;
+  float: left;
+  width: 106px;
+  height: 40px;
+}
+.client .thirdLogo {
+  border: solid 1px #dfdfdf;
+  padding: 2px 2px;
+  float: right;
+  height: 40px;
+  width: 100px;
+}
+
+.client .testmonial {
+  padding-top: 80px;
+}
+
+.whatSay {
+    border: solid 1px #dfdfdf;
+    height: 120px;
+    padding: 15px;
+    width: 225px;
+}
+
+.client .testmonial .clientIcon {
+  width: 44px;
+  height: 44px;
+  float: left;
+  border-radius: 22px;
+  border: solid 1px #dfdfdf;
+}
+
+.client .testmonial .textRight {
+    margin-left: 45px;
+    /* float: left; */
+    width: 200px;
+}
+
+.client .testmonial .textRight h5 {
+  margin-left: 15px;
+}
+
+.client .testmonial .textRight p {
+  margin-left: 15px;
+}
