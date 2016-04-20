@@ -12,17 +12,6 @@
 }
   }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 640px) {
-
-.carousel-caption {
-  right: 0;
-  padding-bottom: 15%;
-  left: 15%;
-  text-align: start;
-}
-}
-
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 320px) {
@@ -53,13 +42,6 @@ blockquote {
   font-size: 18px;
   line-height: 20px;
   text-align: left;
-}
-
-.work h3 {
-  color: #ffffff;
-  font-size: 30px;
-  line-height: 50px;
-  font-weight: 600;
 }
 
 .scroll {

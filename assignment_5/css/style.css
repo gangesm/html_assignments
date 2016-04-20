@@ -46,9 +46,16 @@ a:hover {
 
 .carousel-caption {
   right: 0;
-  padding-bottom: 13%;
-  left: 15%;
+  padding-bottom: 140px;
+  left: 118px;
   text-align: start;
+}
+
+.carousel-caption p {
+  font-size: 24px;
+  line-height: 26px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .btn-danger {
@@ -69,12 +76,21 @@ a:hover {
 
 .service h2 {
   color: #ffffff;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 600;
 }
 
 .service p {
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.services p {
   font-size: 14px;
   line-height: 18px;
-  color: #ffffff;
 }
 
 .sereptorWhite {
@@ -83,6 +99,7 @@ a:hover {
   background-position: center;
   padding-bottom: 50px;
   font-size: 18px;
+  line-height: 20px;
 }
 .services {
   padding: 54px 0px;
@@ -92,18 +109,21 @@ a:hover {
   color: #ffffff;
   font-size: 18px;
   line-height: 20px;
+  font-weight: 600;
 }
 
 .btn-services {
-  margin-top: 25px;
-  padding: 8px 15px;
+  margin-top: 30px;
+  padding: 9px 29px;
   color: #fff;
   background-color: #d9534f;
   border-color: #d43f3a;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .work {
-  background: url(../img/portfolioBg.jpg) repeat;
+  background: url(../img/background-img.jpg) repeat;
   padding: 172px 0px;
 }
 .work h3 {
@@ -125,30 +145,31 @@ a:hover {
   padding: 50px 0;
 }
 
+.portfolio h3 {
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.portfolio h4 {
+  font-size: 24px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
 .sereptorBlank {
   background: url(../img/portSep.png) no-repeat;
   background-position: center;
   padding-bottom: 50px;
   font-size: 18px;
-}
-
-.portfolio .headline {
-  color: #323232;
-  font-size: 38px;
-  line-height: 40px;
-}
-
-.portfolio .sereptor {
-  color: #323232;
-  font-size: 18px;
   line-height: 20px;
 }
 
 .breadcrumb {
-  padding: 20px 0;
+  padding: 0 0;
   list-style: none;
   background-color: #ffffff;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 .breadcrumb li a {
@@ -174,7 +195,9 @@ a:hover {
 }
 
 .portfolioBox p {
-  color: #ffffff
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .portfolioBox:hover {
@@ -195,6 +218,10 @@ a:hover {
   line-height: 20px;
 }
 
+.browseAll a {
+  color: #323232;
+}
+
 .glyphicon-chevron-down {
   position: relative;
   top: 1px;
@@ -213,6 +240,7 @@ a:hover {
 }
 .testmonial .carousel {
   position: relative;
+  padding-top: 40px;
 }
 
 /*-------------------------------*/
@@ -231,9 +259,6 @@ a:hover {
 }
 #fade-quote-carousel.carousel .carousel-indicators > li:active {
   background-color: #323232;
-  width: 23px;
-  height: 23px;
-  border-radius: 11.5px;
 }
 #fade-quote-carousel blockquote {
     border: none;
@@ -244,6 +269,8 @@ a:hover {
     margin: 0 auto;
     border-radius: 100px;
     float: left;
+    border: solid 5px #ebebeb;
+    background: #7b7b7b;
 }
 blockquote {
   padding: 50px 250px;
@@ -255,7 +282,7 @@ blockquote {
 blockquote p {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
-  line-height: 20px;
+  line-height: 30px;
   font-weight: 300;
 }
 
@@ -275,33 +302,31 @@ footer {
   background: #475a85;
   padding: 80px 0;
 }
-.footerHeading {
+footer h3 {
   color: #ffffff;
-  font-size: 38px;
-  line-height: 40px;
-}
-
-.footerPara {
-  color: #ffffff;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 600;
 }
 
 .contactDetails {
-  color: #ffffff;
-  text-align: left;
 }
 
 .contactDetails h3 {
-  font-size: 24px;
-  line-height: 26px;
-  padding-bottom: 30px;
+  font-size: 18px;
+  line-height: 20px;
+  padding-bottom: 18px;
 }
 
 .contactDetails p {
-  font-size: 17px;
-  line-height: 19px;
+  font-size: 18px;
+  line-height: 20px;
   padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.Icons {
+  color:#c0c0c0;
 }
 
 .contactDetails p a {
@@ -332,6 +357,8 @@ footer {
   margin-top: 18px;
   margin-left: 15px;
   padding: 15px 45px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .form-control {
@@ -401,14 +428,6 @@ footer {
   height: 45px;
   display: inline-block;
 }
-
-.socialGp:hover {
-  width: 45px;
-  height: 45px;
-  border-radius: 22.5px;
-  background: #ffffff;
-}
-
 
 .scroll {
   width: 58px;
